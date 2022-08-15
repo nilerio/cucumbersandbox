@@ -1,6 +1,7 @@
 package com.pberube.cucumber.config;
 
 import org.springdoc.core.GroupedOpenApi;
+import org.springframework.boot.autoconfigure.kafka.KafkaProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
