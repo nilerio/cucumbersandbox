@@ -14,6 +14,7 @@ import java.math.BigDecimal;
 public class SegmentDRDDto {
     private String typeOperation;
     private BigDecimal montant;
+    private String nomBeneficiaire;
     private String dateTransaction0aajjj;
     private String noInstitutionFinanciere;
     private String noCompte;

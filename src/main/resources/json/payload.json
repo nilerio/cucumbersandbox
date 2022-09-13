@@ -1,0 +1,30 @@
+{
+  "sauvegarderLot": {
+    "noOrganisme": "00995",
+    "numeroFichierBanque": "3024",
+    "nomFichierBanque": "o_SP12_1003800995_202205250603433024.txt",
+    "dateProdBanqueAnneeJour": {
+      "jourAnnee": 144,
+      "annee": 2022
+    },
+    "nombrePaiements": 1,
+    "montantPaiements": 1,
+    "montantFraisPaiements": 0.00,
+    "nombreCorrections": 0,
+    "montantCorrections": 0.00,
+    "montantFraisCorrections": 0.00,
+    "paiements": [{
+      "codeTypeTransaction": "G",
+      "nomPayeur": "MR asdfasdf asdas",
+      "reference1": "A3100022071",
+      "montantPaiement": 1,
+      "montantFrais": 0,
+      "codeTypeOrigine": "E",
+      "noInstitutionFinanciere": "004",
+      "noTransitInstitution": "98000",
+      "noCentreService": "01",
+      "datePaiement": "2022-05-20T00:00:00"
+    }]
+  },
+  "codeProvenance": "D"
+}

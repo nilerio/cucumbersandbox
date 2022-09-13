@@ -1,0 +1,90 @@
+{
+  "title": "payload",
+  "description": "Auto generated JSON schema based on the 'payload' file",
+  "type": "object",
+  "properties": {
+    "sauvegarderLot": {
+      "type": "object",
+      "properties": {
+        "montantFraisPaiements": {
+          "type": "number"
+        },
+        "paiements": {
+          "type": "array",
+          "items": {
+            "properties": {
+              "nomPayeur": {
+                "type": "string"
+              },
+              "noCentreService": {
+                "type": "string"
+              },
+              "datePaiement": {
+                "type": "string"
+              },
+              "codeTypeTransaction": {
+                "type": "string"
+              },
+              "codeTypeOrigine": {
+                "type": "string"
+              },
+              "reference1": {
+                "type": "string"
+              },
+              "noInstitutionFinanciere": {
+                "type": "string"
+              },
+              "noTransitInstitution": {
+                "type": "string"
+              },
+              "montantPaiement": {
+                "type": "number"
+              },
+              "montantFrais": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "montantFraisCorrections": {
+          "type": "number"
+        },
+        "nomFichierBanque": {
+          "type": "string"
+        },
+        "nombrePaiements": {
+          "type": "number"
+        },
+        "numeroFichierBanque": {
+          "type": "string"
+        },
+        "nombreCorrections": {
+          "type": "number"
+        },
+        "montantPaiements": {
+          "type": "number"
+        },
+        "montantCorrections": {
+          "type": "number"
+        },
+        "noOrganisme": {
+          "type": "string"
+        },
+        "dateProdBanqueAnneeJour": {
+          "type": "object",
+          "properties": {
+            "annee": {
+              "type": "number"
+            },
+            "jourAnnee": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "codeProvenance": {
+      "type": "string"
+    }
+  }
+}

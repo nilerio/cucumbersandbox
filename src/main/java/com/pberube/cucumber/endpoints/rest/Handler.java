@@ -2,6 +2,8 @@ package com.pberube.cucumber.endpoints.rest;
 
 import com.pberube.cucumber.drd.FichierLotsDRDDto;
 import com.pberube.cucumber.generator.drd.FichierDrdPayloadGenerator;
+import com.pberube.cucumber.generator.lot.SauvegarderLotRestGenerator;
+import com.pberube.cucumber.lot.SauvegarderLotRest;
 import com.pberube.cucumber.services.InventoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -41,6 +43,11 @@ public class Handler {
     @GetMapping("generate/DRD")
     public FichierLotsDRDDto generateDrd() {
         return new FichierDrdPayloadGenerator().genrateFichierDRD();
+    }
+
+    @GetMapping("generate/Lot")
+    public SauvegarderLotRest generateLot() {
+        return new SauvegarderLotRestGenerator().genrateSauvegarderLotRest();
     }
 
 }
